@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Page #1 | M-Prog</title>
+  </head>
+  <body>
+    <header>
+      <div class="h1">
+        <h1><span class="m">M</span>-Prog</h1>
+      </div>
+      <div class="logo">
+        <img class="m-prog-logo" src="the-pictures/M-Prog.png" alt="something error!" />
+      </div>
+    </header>
+    <section>
+      <form action="" method="post">
+        <h2>Login</h2>
+
+        <div class="input-box">
+          <i class='bx  bxs-user'></i> 
+          <input type="text" placeholder="Yourname" required />
+        </div>
+
+        <div class="input-box">
+          <i class='bx  bxs-envelope'></i> 
+          <input type="email" placeholder="Email" required />
+        </div>
+
+        <div class="input-box">
+          <i class='bx  bxs-lock'></i> 
+          <input
+            type="password"
+            placeholder="Password"
+            minlength="8"
+            maxlength="20"
+            required
+          />
+        </div>
+
+        <div class="forget-pass">
+          <a class="dec" href="#">Forget your password?</a>
+        </div>
+
+        <button type="submit" class="btn">Login</button>
+
+        <div class="reg-link">
+          Don't have an acount? <a class="deco" href="#">Regester</a>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

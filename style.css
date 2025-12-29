@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+/* ====== COLOR SYSTEM ====== */
+:root {
+  --bg: #050b1a;
+  --card: #0b162e;
+  --border: #132a4d;
+  --neon: #00ffd5;
+  --text: #e6f1ff;
+  --muted: #7aa2c7;
+}
+
+body {
+  font-family: "Open Sans", monospace;
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 23px;
+  color: white;
+  margin: 0;
+}
+
+.m {
+  color: var(--neon);
+  font-size: 29px;
+}
+
+.h1 {
+  position: fixed;
+  top: 3px;
+  left: 15px;
+}
+
+/* end of heading */
+
+.m-prog-logo {
+  width: 50px;
+}
+
+.logo {
+  position: fixed;
+  top: 3px;
+  right: 15px;
+}
+
+/* end of logo */
+
+/* end of the header section */
+
+
+/* Start of the form */
+
+section {
+  width: 63vw;
+  max-width: 600PX;
+  min-width: 330px;
+  height: 470px;
+  border-radius: 13px;
+  margin-top: 70px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  box-shadow: 0 0 60px rgba(0, 255, 213, 0.17); 
+}
+
+h2 {
+  margin-top: 27px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+input {
+  margin-left: 5%;
+  width: 90%;
+  height: 46px;
+  padding: 0;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-bottom: 25px;
+  background: #050b1a;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  outline: none;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.input-box i {
+  position: absolute;
+  color: var(--muted);
+  font-size: 16px;
+  right: 7.7%;
+  top: 50%;
+  margin-top: -20px;
+}
+
+input:focus {
+  border-color: var(--neon);
+  box-shadow: 0 0 12px rgba(0, 255, 213, 0.5);
+}
+
+input:hover {
+  border-color: var(--neon);
+  box-shadow: 0 0 12px rgba(0, 255, 213, 0.5);
+}
+
+/* ====== BUTTON ====== */
+button {
+  width: 25%;
+  padding: 10px 5px;
+  background: var(--neon);
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  font-weight: bold;
+  font-size: 10px;
+  cursor: pointer;
+  display: block;
+  margin: 50px auto 0;
+}
+
+button:hover {
+  box-shadow: 0 0 20px rgba(0, 255, 213, 0.8);
+}
+
+.forget-pass {
+  margin-left: 25px;
+  margin-top: 4px;
+  font-size: 10px;
+  position: relative;
+}
+
+.reg-link {
+  margin-left: 24px;
+  margin-top: 30px;
+  font-size: 10px;
+  color: var(--neon);
+}
+
+.dec {
+  text-decoration: none;
+  color: var(--muted);
+  position: absolute;
+  right: 30px;
+  top: 6px;
+}
+
+.deco {
+  text-decoration: none;
+  margin-left: 5px;
+  color: var(--muted);
+}
+
+.input-box {
+  position: relative;
+}
+
+/* ----------------------end of Progect -------------------- */
