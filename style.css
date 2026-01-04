@@ -27,6 +27,9 @@ h1 {
   font-size: 23px;
   color: white;
   margin: 0;
+  position: fixed;
+  top: 9px;
+  left: 45px;
 }
 
 .m {
@@ -34,22 +37,13 @@ h1 {
   font-size: 29px;
 }
 
-.h1 {
-  position: fixed;
-  top: 3px;
-  left: 15px;
-}
-
 /* end of heading */
 
 .m-prog-logo {
   width: 50px;
-}
-
-.logo {
   position: fixed;
-  top: 3px;
-  right: 15px;
+  top: 9px;
+  right: 45px;
 }
 
 /* end of logo */
@@ -98,6 +92,7 @@ input {
 input::placeholder {
   color: var(--muted);
   font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .input-box i {
@@ -171,3 +166,4 @@ button:hover {
 }
 
 /* ----------------------end of Progect -------------------- */
+
